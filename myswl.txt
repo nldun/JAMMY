@@ -1,0 +1,82 @@
+- name: reload apt-get
+  become: true
+  shell: apt-get update
+
+- name: Install Mysql GPG key
+  become: true
+  shell: "wget --no-check-certificate -qO - 'https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x859be8d7c586f538430b19c2467b942d3a79bd29' | gpg --dearmor -o /usr/share/keyrings/mysql-keyring.gpg"
+  args:
+    creates: "/usr/share/keyrings/mysql-keyring.gpg"
+  notify: reload apt
+
+- name: Add Mysql deb repository
+  shell: echo "deb [signed-by=/usr/share/keyrings/mysql-keyring.gpg] http://repo.mysql.com/apt/ubuntu/ bionic mysql-5.7" | sudo tee /etc/apt/sources.list.d/mysql.list
+  args:
+    creates: "/etc/apt/sources.list.d/mysql.list"
+  notify: reload apt
+
+- name: install MySQL community client
+  shell: apt install -fy mysql-community-client=5.7.39-1ubuntu18.04
+
+- name: install MySQL client
+  become: true
+  shell: apt install -fy mysql-client=5.7.39-1ubuntu18.04
+
+- name: Install MySQL Server
+  apt:
+    name: mysql-community-server
+    state: present
+
+- name: Start and enable MySQL
+  systemd:
+    name: mysql
+    state: started
+    enabled: yes
+
+
+
+
+
+link tentang apt list
+https://www.cyberciti.biz/faq/apt-get-list-packages-are-installed-on-ubuntu-linux/
+
+
+
+
+
+
+
+
+
+sudo apt get update
+wget --no-check-certificate -qO - 'https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x859be8d7c586f538430b19c2467b942d3a79bd29' | gpg --dearmor -o /usr/share/keyrings/mysql-keyring.gpg
+mkdir /usr/share/keyrings/mysql-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/mysql-keyring.gpg] http://repo.mysql.com/apt/ubuntu/ bionic mysql-5.7" | sudo tee /etc/apt/sources.list.d/mysql.list
+sudo apt install -fy mysql-community-client=5.7.39-1ubuntu18.04
+sudo apt install -fy mysql-client=5.7.39-1ubuntu18.04
+sudo apt install mysql-community-server=5.7
+
+
+
+
+https://medium.com/@lesliedouglas23/how-to-install-mysql-5-0-on-ubuntu-20-04-or-later-4d27de464eef
+
+https://askubuntu.com/questions/1041317/how-to-forcefully-remove-mysql-and-mariadb-with-unmet-dependencies-when-apt-get
+
+ wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
+ $ sudo dpkg -i mysql-apt-config_0.8.12-1_all.deb
+$ sudo apt update
+$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 467B942D3A79BD29
+$ sudo apt update
+$ sudo apt-cache policy mysql-server
+$ sudo apt install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*
+$ sudo mysql_secure_installation
+$ mysql -u root -p
+
+fix diatas
+sudo apt-get -f install
+
+sudo dpkg -l | grep mariadb
+sudo dpkg -l | grep mysql
+sudo apt-get --purge autoremove package_name
+saya menguninstall semua dimaria db dan mysql lalu mengulang kembali perintah diatas.

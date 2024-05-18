@@ -1,0 +1,214 @@
+eki@rezkyserver:~$ sudo apt search php8.1
+[sudo] password for eki:
+Sorting... Done
+Full Text Search... Done
+libapache2-mod-php7.4/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  Transitional package
+
+libapache2-mod-php8.0/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  Transitional package
+
+libapache2-mod-php8.1/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  server-side, HTML-embedded scripting language (Apache 2 module)
+
+libphp8.1-embed/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  HTML-embedded scripting language (Embedded SAPI library)
+
+php8.1/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 all
+  server-side, HTML-embedded scripting language (metapackage)
+
+php8.1-amqp/jammy 1.11.0-4 amd64
+  AMQP extension for PHP
+
+php8.1-apcu/jammy 5.1.21+4.0.11-7ubuntu1 amd64
+  APC User Cache for PHP
+
+php8.1-ast/jammy 1.0.16-4 amd64
+  AST extension for PHP 7
+
+php8.1-bcmath/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  Bcmath module for PHP
+
+php8.1-bz2/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  bzip2 module for PHP
+
+php8.1-cgi/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  server-side, HTML-embedded scripting language (CGI binary)
+
+php8.1-cli/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  command-line interpreter for the PHP scripting language
+
+php8.1-common/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  documentation, examples and common module for PHP
+
+php8.1-curl/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  CURL module for PHP
+
+php8.1-dba/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  DBA module for PHP
+
+php8.1-dev/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  Files for PHP8.1 module development
+
+php8.1-ds/jammy 1.4.0-4 amd64
+  PHP extension providing efficient data structures for PHP 7
+
+php8.1-enchant/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  Enchant module for PHP
+
+php8.1-fpm/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  server-side, HTML-embedded scripting language (FPM-CGI binary)
+
+php8.1-gd/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  GD module for PHP
+
+php8.1-gearman/jammy 2.1.0+1.1.2-11 amd64
+  PHP wrapper to libgearman
+
+php8.1-gmagick/jammy 2.0.6~rc1+1.1.7~rc3-10 amd64
+  Provides a wrapper to the GraphicsMagick library
+
+php8.1-gmp/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  GMP module for PHP
+
+php8.1-gnupg/jammy 1.5.1-2 amd64
+  PHP wrapper around the gpgme library
+
+php8.1-http/jammy 4.2.1+php8-2ubuntu2 amd64
+  PECL HTTP module for PHP Extended HTTP Support
+
+php8.1-igbinary/jammy 3.2.6+2.0.8-7ubuntu1 amd64
+  igbinary PHP serializer
+
+php8.1-imagick/jammy 3.6.0-4ubuntu1 amd64
+  Provides a wrapper to the ImageMagick library
+
+php8.1-imap/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  IMAP module for PHP
+
+php8.1-interbase/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  Interbase module for PHP
+
+php8.1-intl/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  Internationalisation module for PHP
+
+php8.1-ldap/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  LDAP module for PHP
+
+php8.1-mailparse/jammy 3.1.2+2.1.7~dev20160128-7 amd64
+  Email message manipulation for PHP
+
+php8.1-mbstring/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  MBSTRING module for PHP
+
+php8.1-memcache/jammy 8.0+4.0.5.2+3.0.9~20170802.e702b5f9+-7 amd64
+  memcache extension module for PHP
+
+php8.1-memcached/jammy 3.1.5+2.2.0-14.1 amd64
+  memcached extension module for PHP, uses libmemcached
+
+php8.1-mongodb/jammy 1.12.0+1.9.2+1.7.5-4 amd64
+  MongoDB driver for PHP
+
+php8.1-msgpack/jammy 2.2.0~rc1+2.1.2+0.5.7-6 amd64
+  PHP extension for interfacing with MessagePack
+
+php8.1-mysql/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  MySQL module for PHP
+
+php8.1-oauth/jammy 2.0.7+1.2.3-14 amd64
+  OAuth 1.0 consumer and provider extension
+
+php8.1-odbc/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  ODBC module for PHP
+
+php8.1-opcache/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  Zend OpCache module for PHP
+
+php8.1-pcov/jammy 1.0.11-4 amd64
+  Code coverage driver
+
+php8.1-pgsql/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  PostgreSQL module for PHP
+
+php8.1-phpdbg/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  server-side, HTML-embedded scripting language (PHPDBG binary)
+
+php8.1-ps/jammy 1.4.4+1.3.7-6 amd64
+  ps module for PHP
+
+php8.1-pspell/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  pspell module for PHP
+
+php8.1-psr/jammy 1.2.0-4 amd64
+  PSR interfaces for PHP
+
+php8.1-raphf/jammy 2.0.1+1.1.2-13 amd64
+  raphf module for PHP
+
+php8.1-readline/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  readline module for PHP
+
+php8.1-redis/jammy 5.3.5+4.3.0-5.1 amd64
+  PHP extension for interfacing with Redis
+
+php8.1-rrd/jammy 2.0.3+1.1.3-6 amd64
+  PHP bindings to rrd tool system
+
+php8.1-smbclient/jammy 1.0.6-6 amd64
+  PHP wrapper for libsmbclient
+
+php8.1-snmp/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  SNMP module for PHP
+
+php8.1-soap/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  SOAP module for PHP
+
+php8.1-solr/jammy 2.5.1+2.4.0-15 amd64
+  PHP extension for communicating with Apache Solr server
+
+php8.1-sqlite3/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  SQLite3 module for PHP
+
+php8.1-ssh2/jammy 1.3.1+0.13-6 amd64
+  Bindings for the libssh2 library
+
+php8.1-sybase/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  Sybase module for PHP
+
+php8.1-tidy/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  tidy module for PHP
+
+php8.1-uopz/jammy 7.1.1+6.1.2-6 amd64
+  UOPZ extension for PHP 7
+
+php8.1-uploadprogress/jammy 2.0.2+1.1.4-7 amd64
+  file upload progress tracking extension for PHP
+
+php8.1-uuid/jammy 1.2.0-11 amd64
+  PHP UUID extension
+
+php8.1-xdebug/jammy 3.1.2+2.9.8+2.8.1+2.5.5-4 amd64
+  Xdebug Module for PHP
+
+php8.1-xml/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  DOM, SimpleXML, XML, and XSL module for PHP
+
+php8.1-xmlrpc/jammy 3:1.0.0~rc3-2 amd64
+  XML-RPC servers and clients functions for PHP
+
+php8.1-xsl/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 all
+  XSL module for PHP (dummy)
+
+php8.1-yac/jammy 2.3.1+0.9.2-4 amd64
+  YAC (Yet Another Cache) for PHP
+
+php8.1-yaml/jammy 2.2.2+2.1.0+2.0.4+1.3.2-5 amd64
+  YAML-1.1 parser and emitter for PHP
+
+php8.1-zip/jammy-updates,jammy-security 8.1.2-1ubuntu2.17 amd64
+  Zip module for PHP
+
+php8.1-zmq/jammy 1.1.3-23 amd64
+  ZeroMQ messaging bindings for PHP
+
